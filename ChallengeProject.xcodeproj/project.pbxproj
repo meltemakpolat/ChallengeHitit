@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06016567368CDD5ECC5BA448 /* Pods_ChallengeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCF1B644DEB3D5838C93659 /* Pods_ChallengeProject.framework */; };
+		F2F83D19239B987600FC81CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D18239B987600FC81CC /* AppDelegate.swift */; };
+		F2F83D1B239B987600FC81CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D1A239B987600FC81CC /* SceneDelegate.swift */; };
+		F2F83D22239B987700FC81CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D21239B987700FC81CC /* Assets.xcassets */; };
+		F2F83D41239B991F00FC81CC /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D32239B991F00FC81CC /* OpenSans-SemiBold.ttf */; };
+		F2F83D42239B991F00FC81CC /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D33239B991F00FC81CC /* OpenSans-Italic.ttf */; };
+		F2F83D43239B991F00FC81CC /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D34239B991F00FC81CC /* OpenSans-BoldItalic.ttf */; };
+		F2F83D44239B992000FC81CC /* HindSiliguri-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D35239B991F00FC81CC /* HindSiliguri-Medium.ttf */; };
+		F2F83D45239B992000FC81CC /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D36239B991F00FC81CC /* HindSiliguri-Regular.ttf */; };
+		F2F83D46239B992000FC81CC /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D37239B991F00FC81CC /* OpenSans-ExtraBoldItalic.ttf */; };
+		F2F83D47239B992000FC81CC /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D38239B991F00FC81CC /* OpenSans-ExtraBold.ttf */; };
+		F2F83D48239B992000FC81CC /* HindSiliguri-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D39239B991F00FC81CC /* HindSiliguri-SemiBold.ttf */; };
+		F2F83D49239B992000FC81CC /* HindSiliguri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3A239B991F00FC81CC /* HindSiliguri-Bold.ttf */; };
+		F2F83D4A239B992000FC81CC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3B239B991F00FC81CC /* OpenSans-Regular.ttf */; };
+		F2F83D4B239B992000FC81CC /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3C239B991F00FC81CC /* OpenSans-LightItalic.ttf */; };
+		F2F83D4C239B992000FC81CC /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3D239B991F00FC81CC /* OpenSans-SemiBoldItalic.ttf */; };
+		F2F83D4D239B992000FC81CC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3E239B991F00FC81CC /* OpenSans-Bold.ttf */; };
+		F2F83D4E239B992000FC81CC /* HindSiliguri-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D3F239B991F00FC81CC /* HindSiliguri-Light.ttf */; };
+		F2F83D4F239B992000FC81CC /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D40239B991F00FC81CC /* OpenSans-Light.ttf */; };
+		F2F83D52239B994500FC81CC /* VCBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D50239B994500FC81CC /* VCBaseController.swift */; };
+		F2F83D53239B994500FC81CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D51239B994500FC81CC /* Constants.swift */; };
+		F2F83D57239B997700FC81CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D54239B997700FC81CC /* NetworkManager.swift */; };
+		F2F83D58239B997700FC81CC /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D55239B997700FC81CC /* NetworkModels.swift */; };
+		F2F83D59239B997700FC81CC /* BaseNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D56239B997700FC81CC /* BaseNetworkManager.swift */; };
+		F2F83D5B239B998700FC81CC /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D5A239B998700FC81CC /* Helper.swift */; };
+		F2F83D5F239B99E000FC81CC /* VCSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D5D239B99E000FC81CC /* VCSplash.swift */; };
+		F2F83D60239B99E000FC81CC /* VCFilmDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D5E239B99E000FC81CC /* VCFilmDetails.swift */; };
+		F2F83D63239B99FC00FC81CC /* TVCFilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D61239B99FC00FC81CC /* TVCFilmCell.swift */; };
+		F2F83D64239B99FC00FC81CC /* VCFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F83D62239B99FC00FC81CC /* VCFilms.swift */; };
+		F2F83D66239B9A1900FC81CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D65239B9A1900FC81CC /* Main.storyboard */; };
+		F2F83D68239B9A3100FC81CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D67239B9A3100FC81CC /* LaunchScreen.storyboard */; };
+		F2F83D6A239B9E1500FC81CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2F83D69239B9E1500FC81CC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57B57E35EA100BF635067FD1 /* Pods-ChallengeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProject.release.xcconfig"; path = "Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject.release.xcconfig"; sourceTree = "<group>"; };
+		9DCF1B644DEB3D5838C93659 /* Pods_ChallengeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D96388B70E397B2B9CE6B8 /* Pods-ChallengeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeProject.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F2F83D15239B987600FC81CC /* ChallengeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F83D18239B987600FC81CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2F83D1A239B987600FC81CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2F83D21239B987700FC81CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F83D26239B987700FC81CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F83D32239B991F00FC81CC /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F2F83D33239B991F00FC81CC /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F2F83D34239B991F00FC81CC /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F2F83D35239B991F00FC81CC /* HindSiliguri-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Medium.ttf"; sourceTree = "<group>"; };
+		F2F83D36239B991F00FC81CC /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		F2F83D37239B991F00FC81CC /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2F83D38239B991F00FC81CC /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F2F83D39239B991F00FC81CC /* HindSiliguri-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-SemiBold.ttf"; sourceTree = "<group>"; };
+		F2F83D3A239B991F00FC81CC /* HindSiliguri-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Bold.ttf"; sourceTree = "<group>"; };
+		F2F83D3B239B991F00FC81CC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F2F83D3C239B991F00FC81CC /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F2F83D3D239B991F00FC81CC /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2F83D3E239B991F00FC81CC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F2F83D3F239B991F00FC81CC /* HindSiliguri-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HindSiliguri-Light.ttf"; sourceTree = "<group>"; };
+		F2F83D40239B991F00FC81CC /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F2F83D50239B994500FC81CC /* VCBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCBaseController.swift; sourceTree = "<group>"; };
+		F2F83D51239B994500FC81CC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F2F83D54239B997700FC81CC /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F2F83D55239B997700FC81CC /* NetworkModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
+		F2F83D56239B997700FC81CC /* BaseNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworkManager.swift; sourceTree = "<group>"; };
+		F2F83D5A239B998700FC81CC /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F2F83D5D239B99E000FC81CC /* VCSplash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSplash.swift; sourceTree = "<group>"; };
+		F2F83D5E239B99E000FC81CC /* VCFilmDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCFilmDetails.swift; sourceTree = "<group>"; };
+		F2F83D61239B99FC00FC81CC /* TVCFilmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCFilmCell.swift; sourceTree = "<group>"; };
+		F2F83D62239B99FC00FC81CC /* VCFilms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCFilms.swift; sourceTree = "<group>"; };
+		F2F83D65239B9A1900FC81CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2F83D67239B9A3100FC81CC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2F83D69239B9E1500FC81CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2F83D12239B987600FC81CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06016567368CDD5ECC5BA448 /* Pods_ChallengeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1574EBC72EAD4FB0BBB20148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DCF1B644DEB3D5838C93659 /* Pods_ChallengeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B701FE2CB3A6D51502F284FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5D96388B70E397B2B9CE6B8 /* Pods-ChallengeProject.debug.xcconfig */,
+				57B57E35EA100BF635067FD1 /* Pods-ChallengeProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2F83D0C239B987600FC81CC = {
+			isa = PBXGroup;
+			children = (
+				F2F83D17239B987600FC81CC /* ChallengeProject */,
+				F2F83D16239B987600FC81CC /* Products */,
+				B701FE2CB3A6D51502F284FB /* Pods */,
+				1574EBC72EAD4FB0BBB20148 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F83D16239B987600FC81CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D15239B987600FC81CC /* ChallengeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2F83D17239B987600FC81CC /* ChallengeProject */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D2C239B989700FC81CC /* Base */,
+				F2F83D2D239B989D00FC81CC /* NetworkManager */,
+				F2F83D2E239B98A600FC81CC /* Helper */,
+				F2F83D30239B98C500FC81CC /* ViewControllers */,
+				F2F83D2F239B98B700FC81CC /* Resources */,
+				F2F83D26239B987700FC81CC /* Info.plist */,
+				F2F83D69239B9E1500FC81CC /* GoogleService-Info.plist */,
+			);
+			path = ChallengeProject;
+			sourceTree = "<group>";
+		};
+		F2F83D2C239B989700FC81CC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D51239B994500FC81CC /* Constants.swift */,
+				F2F83D50239B994500FC81CC /* VCBaseController.swift */,
+				F2F83D18239B987600FC81CC /* AppDelegate.swift */,
+				F2F83D1A239B987600FC81CC /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F2F83D2D239B989D00FC81CC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D56239B997700FC81CC /* BaseNetworkManager.swift */,
+				F2F83D54239B997700FC81CC /* NetworkManager.swift */,
+				F2F83D55239B997700FC81CC /* NetworkModels.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F2F83D2E239B98A600FC81CC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D5A239B998700FC81CC /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F2F83D2F239B98B700FC81CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D67239B9A3100FC81CC /* LaunchScreen.storyboard */,
+				F2F83D65239B9A1900FC81CC /* Main.storyboard */,
+				F2F83D21239B987700FC81CC /* Assets.xcassets */,
+				F2F83D31239B98F800FC81CC /* FontFiles */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2F83D30239B98C500FC81CC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D5E239B99E000FC81CC /* VCFilmDetails.swift */,
+				F2F83D5D239B99E000FC81CC /* VCSplash.swift */,
+				F2F83D5C239B99AA00FC81CC /* Films */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F2F83D31239B98F800FC81CC /* FontFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D3A239B991F00FC81CC /* HindSiliguri-Bold.ttf */,
+				F2F83D3F239B991F00FC81CC /* HindSiliguri-Light.ttf */,
+				F2F83D35239B991F00FC81CC /* HindSiliguri-Medium.ttf */,
+				F2F83D36239B991F00FC81CC /* HindSiliguri-Regular.ttf */,
+				F2F83D39239B991F00FC81CC /* HindSiliguri-SemiBold.ttf */,
+				F2F83D3E239B991F00FC81CC /* OpenSans-Bold.ttf */,
+				F2F83D34239B991F00FC81CC /* OpenSans-BoldItalic.ttf */,
+				F2F83D38239B991F00FC81CC /* OpenSans-ExtraBold.ttf */,
+				F2F83D37239B991F00FC81CC /* OpenSans-ExtraBoldItalic.ttf */,
+				F2F83D33239B991F00FC81CC /* OpenSans-Italic.ttf */,
+				F2F83D40239B991F00FC81CC /* OpenSans-Light.ttf */,
+				F2F83D3C239B991F00FC81CC /* OpenSans-LightItalic.ttf */,
+				F2F83D3B239B991F00FC81CC /* OpenSans-Regular.ttf */,
+				F2F83D32239B991F00FC81CC /* OpenSans-SemiBold.ttf */,
+				F2F83D3D239B991F00FC81CC /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = FontFiles;
+			sourceTree = "<group>";
+		};
+		F2F83D5C239B99AA00FC81CC /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				F2F83D61239B99FC00FC81CC /* TVCFilmCell.swift */,
+				F2F83D62239B99FC00FC81CC /* VCFilms.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2F83D14239B987600FC81CC /* ChallengeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F83D29239B987700FC81CC /* Build configuration list for PBXNativeTarget "ChallengeProject" */;
+			buildPhases = (
+				2EC942EB22A48214196B138B /* [CP] Check Pods Manifest.lock */,
+				F2F83D11239B987600FC81CC /* Sources */,
+				F2F83D12239B987600FC81CC /* Frameworks */,
+				F2F83D13239B987600FC81CC /* Resources */,
+				774450192749C658058685F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeProject;
+			productName = ChallengeProject;
+			productReference = F2F83D15239B987600FC81CC /* ChallengeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2F83D0D239B987600FC81CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Meltem Akpolat";
+				TargetAttributes = {
+					F2F83D14239B987600FC81CC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F2F83D10239B987600FC81CC /* Build configuration list for PBXProject "ChallengeProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2F83D0C239B987600FC81CC;
+			productRefGroup = F2F83D16239B987600FC81CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2F83D14239B987600FC81CC /* ChallengeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2F83D13239B987600FC81CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F83D43239B991F00FC81CC /* OpenSans-BoldItalic.ttf in Resources */,
+				F2F83D48239B992000FC81CC /* HindSiliguri-SemiBold.ttf in Resources */,
+				F2F83D4D239B992000FC81CC /* OpenSans-Bold.ttf in Resources */,
+				F2F83D4B239B992000FC81CC /* OpenSans-LightItalic.ttf in Resources */,
+				F2F83D46239B992000FC81CC /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				F2F83D41239B991F00FC81CC /* OpenSans-SemiBold.ttf in Resources */,
+				F2F83D4F239B992000FC81CC /* OpenSans-Light.ttf in Resources */,
+				F2F83D44239B992000FC81CC /* HindSiliguri-Medium.ttf in Resources */,
+				F2F83D22239B987700FC81CC /* Assets.xcassets in Resources */,
+				F2F83D68239B9A3100FC81CC /* LaunchScreen.storyboard in Resources */,
+				F2F83D42239B991F00FC81CC /* OpenSans-Italic.ttf in Resources */,
+				F2F83D6A239B9E1500FC81CC /* GoogleService-Info.plist in Resources */,
+				F2F83D4C239B992000FC81CC /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				F2F83D45239B992000FC81CC /* HindSiliguri-Regular.ttf in Resources */,
+				F2F83D49239B992000FC81CC /* HindSiliguri-Bold.ttf in Resources */,
+				F2F83D4E239B992000FC81CC /* HindSiliguri-Light.ttf in Resources */,
+				F2F83D66239B9A1900FC81CC /* Main.storyboard in Resources */,
+				F2F83D4A239B992000FC81CC /* OpenSans-Regular.ttf in Resources */,
+				F2F83D47239B992000FC81CC /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EC942EB22A48214196B138B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774450192749C658058685F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChallengeProject/Pods-ChallengeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2F83D11239B987600FC81CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F83D64239B99FC00FC81CC /* VCFilms.swift in Sources */,
+				F2F83D57239B997700FC81CC /* NetworkManager.swift in Sources */,
+				F2F83D53239B994500FC81CC /* Constants.swift in Sources */,
+				F2F83D59239B997700FC81CC /* BaseNetworkManager.swift in Sources */,
+				F2F83D58239B997700FC81CC /* NetworkModels.swift in Sources */,
+				F2F83D5B239B998700FC81CC /* Helper.swift in Sources */,
+				F2F83D60239B99E000FC81CC /* VCFilmDetails.swift in Sources */,
+				F2F83D52239B994500FC81CC /* VCBaseController.swift in Sources */,
+				F2F83D5F239B99E000FC81CC /* VCSplash.swift in Sources */,
+				F2F83D19239B987600FC81CC /* AppDelegate.swift in Sources */,
+				F2F83D63239B99FC00FC81CC /* TVCFilmCell.swift in Sources */,
+				F2F83D1B239B987600FC81CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2F83D27239B987700FC81CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2F83D28239B987700FC81CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2F83D2A239B987700FC81CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D96388B70E397B2B9CE6B8 /* Pods-ChallengeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meltem.ChallengeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2F83D2B239B987700FC81CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B57E35EA100BF635067FD1 /* Pods-ChallengeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChallengeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meltem.ChallengeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F83D10239B987600FC81CC /* Build configuration list for PBXProject "ChallengeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F83D27239B987700FC81CC /* Debug */,
+				F2F83D28239B987700FC81CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F83D29239B987700FC81CC /* Build configuration list for PBXNativeTarget "ChallengeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2F83D2A239B987700FC81CC /* Debug */,
+				F2F83D2B239B987700FC81CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2F83D0D239B987600FC81CC /* Project object */;
+}
